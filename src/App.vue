@@ -13,22 +13,38 @@
   <a-layout>
     <a-layout-sider v-model:collapsed="collapsed" collapsible>
       <a-menu v-model:selectedKeys="selectedKeys" theme="dark" mode="inline">
-        <a-menu-item key="1">
-          <user-outlined />
-          <span>
-            <RouterLink to="/">主页面</RouterLink>
-          </span>
-        </a-menu-item>
-        <a-menu-item key="2">
-          <video-camera-outlined />
-          <span>
-            <RouterLink to="/TwoPage">TwoPage</RouterLink>
-          </span>
-        </a-menu-item>
-        <a-menu-item key="3">
-          <upload-outlined />
-          <span>nav 3</span>
-        </a-menu-item>
+        <a-sub-menu key="1">
+          <template #title>
+            <span>
+              <user-outlined />
+              <span>CSS</span>
+            </span>
+          </template>
+          <a-menu-item key="1-1">
+            <user-outlined />
+            <span>
+              <RouterLink to="/">跟随鼠标</RouterLink>
+            </span>
+          </a-menu-item>
+          <a-menu-item key="1-2">待定</a-menu-item>
+          <a-menu-item key="1-3">待定</a-menu-item>
+        </a-sub-menu>
+        <a-sub-menu key="2">
+          <template #title>
+            <span>
+              <user-outlined />
+              <span>THREE</span>
+            </span>
+          </template>
+          <a-menu-item key="2-1">
+            <video-camera-outlined />
+            <span>
+              <RouterLink to="/TwoPage">TwoPage</RouterLink>
+            </span>
+          </a-menu-item>
+          <a-menu-item key="2-2">待定</a-menu-item>
+          <a-menu-item key="2-3">待定</a-menu-item>
+        </a-sub-menu>
       </a-menu>
     </a-layout-sider>
     <a-layout style="min-height: 100vh;">
