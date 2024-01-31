@@ -1,7 +1,12 @@
 <template>
   <div class="main-page">
-    <div ref="mpBox" class="mpBox">
-      <img ref="mpImg" src="../assets/images/Page1/人1.png" />
+    <div class="all-boxs">
+      <div style="font-size: 66px;color: black;margin-bottom: 50px;">Movies</div>
+      <div style="display: flex;justify-content: space-between;">
+        <div ref="mpBox" class="mpBox">
+          <img ref="mpImg" src="../assets/images/Page1/人1.png" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -46,6 +51,15 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to bottom, #c6426e, #642b73);
+
+  .all-boxs {
+    width: 700px;
+    height: 500px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 30px;
+  }
 
   .mpBox {
     width: 175px;
