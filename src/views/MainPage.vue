@@ -1,5 +1,5 @@
 <template>
-  <div class="main-page">
+  <div class="main-page" id="mainPage">
     <div class="all-boxs">
       <div style="font-size: 66px;color: black;margin-bottom: 50px;">Movies</div>
       <div style="display: flex;justify-content: space-between;">
@@ -36,7 +36,7 @@ function computedBGPosition(num, doc) {
 }
 
 onMounted(() => {
-  document.addEventListener('mousemove', e => {
+  document.getElementById('mainPage').addEventListener('mousemove', e => {
     mpBox.value.style.transform = `
       rotateX(${computedTransform(e.clientX, window.innerWidth)}deg)
       rotateY(${computedTransform(e.clientY, window.innerHeight)}deg)

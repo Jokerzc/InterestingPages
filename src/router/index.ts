@@ -10,11 +10,18 @@ const router = createRouter({
       component: MainPage
     },
     {
+      path: '/ScollBoxs',
+      name: 'ScollBoxs',
+      component: () => import('../views/ScollBoxs.vue')
+    },
+    {
+      path: '/Earth_3d',
+      name: 'Earth_3d',
+      component: () => import('../views/Earth_3d.vue')
+    },
+    {
       path: '/TwoPage',
       name: 'TwoPage',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/TwoPage.vue')
     }
   ]

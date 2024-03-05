@@ -26,8 +26,18 @@
               <RouterLink to="/">跟随鼠标</RouterLink>
             </span>
           </a-menu-item>
-          <a-menu-item key="1-2">待定</a-menu-item>
-          <a-menu-item key="1-3">待定</a-menu-item>
+          <a-menu-item key="1-2">
+            <user-outlined />
+            <span>
+              <RouterLink to="/ScollBoxs">滚动绽放</RouterLink>
+            </span>
+          </a-menu-item>
+          <a-menu-item key="1-3">
+            <user-outlined />
+            <span>
+              <RouterLink to="/Earth_3d">3d地球</RouterLink>
+            </span>
+          </a-menu-item>
         </a-sub-menu>
         <a-sub-menu key="2">
           <template #title>
