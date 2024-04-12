@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/TwoPage',
       name: 'TwoPage',
       component: () => import('../views/TwoPage.vue')
+    },
+    {
+      path: '/Test',
+      name: 'Test',
+      component: () => import('../views/Test.vue')
     }
   ]
 })

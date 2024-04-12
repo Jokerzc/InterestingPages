@@ -38,6 +38,12 @@
               <RouterLink to="/Earth_3d">3d地球</RouterLink>
             </span>
           </a-menu-item>
+          <a-menu-item key="1-4">
+            <user-outlined />
+            <span>
+              <RouterLink to="/Test">Test</RouterLink>
+            </span>
+          </a-menu-item>
         </a-sub-menu>
         <a-sub-menu key="2">
           <template #title>
