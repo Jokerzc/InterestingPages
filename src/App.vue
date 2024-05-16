@@ -50,6 +50,12 @@
               <RouterLink to="/CssDoodle">CssDoodle</RouterLink>
             </span>
           </a-menu-item>
+          <a-menu-item key="1-6">
+            <user-outlined />
+            <span>
+              <RouterLink to="/GSAP">GSAP</RouterLink>
+            </span>
+          </a-menu-item>
         </a-sub-menu>
         <a-sub-menu key="2">
           <template #title>

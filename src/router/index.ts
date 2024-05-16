@@ -33,6 +33,11 @@ const router = createRouter({
       path: '/CssDoodle',
       name: 'CssDoodle',
       component: () => import('../views/CssDoodle.vue')
+    },
+    {
+      path: '/GSAP',
+      name: 'GSAP',
+      component: () => import('../views/GSAP.vue')
     }
   ]
 })
