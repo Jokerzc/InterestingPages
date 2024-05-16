@@ -44,6 +44,12 @@
               <RouterLink to="/Test">Test</RouterLink>
             </span>
           </a-menu-item>
+          <a-menu-item key="1-5">
+            <user-outlined />
+            <span>
+              <RouterLink to="/CssDoodle">CssDoodle</RouterLink>
+            </span>
+          </a-menu-item>
         </a-sub-menu>
         <a-sub-menu key="2">
           <template #title>

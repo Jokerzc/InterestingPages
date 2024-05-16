@@ -28,6 +28,11 @@ const router = createRouter({
       path: '/Test',
       name: 'Test',
       component: () => import('../views/Test.vue')
+    },
+    {
+      path: '/CssDoodle',
+      name: 'CssDoodle',
+      component: () => import('../views/CssDoodle.vue')
     }
   ]
 })

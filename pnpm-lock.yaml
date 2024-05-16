@@ -11,6 +11,12 @@ dependencies:
   ant-design-vue:
     specifier: ^4.1.1
     version: 4.1.2(vue@3.4.15)
+  css-doodle:
+    specifier: ^0.39.1
+    version: 0.39.1
+  gsap:
+    specifier: ^3.12.5
+    version: 3.12.5
   pinia:
     specifier: ^2.1.7
     version: 2.1.7(typescript@5.3.3)(vue@3.4.15)
@@ -1456,6 +1462,10 @@ packages:
       which: 2.0.2
     dev: true
 
+  /css-doodle@0.39.1:
+    resolution: {integrity: sha512-DSbgPUR5fKTn31nH7cNyeZR3tNPaYs6aVJHlm9HEQX7UezU4S9wM2X9qblQddnK3mg1Wuqgc65eB5I0esVz+ug==}
+    dev: false
+
   /cssesc@3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
@@ -1871,6 +1881,10 @@ packages:
   /graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
+
+  /gsap@3.12.5:
+    resolution: {integrity: sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==}
+    dev: false
 
   /has-flag@3.0.0:
     resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
