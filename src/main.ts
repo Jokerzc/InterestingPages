@@ -7,6 +7,7 @@ import Antd from 'ant-design-vue';
 import App from './App.vue'
 import router from './router'
 import 'css-doodle';
+import 'virtual:uno.css'
 
 const app = createApp(App)
 
